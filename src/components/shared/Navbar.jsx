@@ -129,7 +129,7 @@ const Navbar=()=> {
           >
             LOGO
           </Typography>
-          <Box sx={{ justifyContent:'end', flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ justifyContent:'end', gap:'20px', flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Link key={page?.name} to={page?.path}>
                 <Button
