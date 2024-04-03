@@ -50,7 +50,7 @@ const Navbar=()=> {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar sx={{backgroundColor : 'transparent', color:"#000"}} position="static">
       <Container maxWidth="lg">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -65,7 +65,7 @@ const Navbar=()=> {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#000',
               textDecoration: 'none',
             }}
           >
@@ -129,13 +129,13 @@ const Navbar=()=> {
           >
             LOGO
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ justifyContent:'end', flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Link key={page?.name} to={page?.path}>
                 <Button
                 
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'primary', display: 'block'}}
               >
                 
                 {page?.name}
