@@ -3,7 +3,11 @@
 const Register = () => {
     return (
         <div>
-            This is register
+            {/* to do :
+            firebase register system
+            
+            */}
+            This is register updated
         </div>
     );
 };
