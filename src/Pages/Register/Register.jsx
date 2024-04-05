@@ -8,6 +8,7 @@ const Register = () => {
             
             */}
             This is register updated
+            This is register updated
         </div>
     );
 };
