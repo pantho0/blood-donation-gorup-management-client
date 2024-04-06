@@ -102,7 +102,7 @@ const Navbar=()=> {
               }}
             >
               {pages.map((page) => (
-                <Link key={page?.name} to={page?.path}><MenuItem  onClick={handleCloseNavMenu}>
+                <Link key={page?.name} href={page?.path}><MenuItem  onClick={handleCloseNavMenu} sx={{textDecoration:'none'}}>
                   <Typography color='secondary' textAlign="center">
                 {page?.name}
                 </Typography>
