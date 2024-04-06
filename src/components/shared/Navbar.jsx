@@ -50,7 +50,7 @@ const Navbar=()=> {
   };
 
   return (
-    <AppBar sx={{backgroundColor : 'transparent', color:"#000"}} position="static">
+    <AppBar component="nav" sx={{backgroundColor : 'transparent', color:"#000", padding:'0px',}} elevation={1} position="static">
       <Container maxWidth="lg">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
