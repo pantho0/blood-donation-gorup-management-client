@@ -64,6 +64,11 @@ const Home = () => {
             </Typography>
           </Paper>
         </Box>
+        <Box>
+          <Typography variant="body1" fontSize={'14px'} textAlign={'justify'} mt={'20px'}>
+          At our core, we are driven by a singular mission: to alleviate suffering and promote well-being through the selfless act of blood donation. We strive to foster a community where every individual recognizes the profound impact they can have on the lives of others. By championing the cause of blood donation, we aim to ensure that no one faces the agony of unmet medical needs due to blood shortages. Through education, advocacy, and compassionate outreach, we empower individuals to become lifesavers, forging a brighter, healthier future for all.
+          </Typography>
+        </Box>
       </Container>
     </>
   );
