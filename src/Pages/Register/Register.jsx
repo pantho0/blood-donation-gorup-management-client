@@ -8,7 +8,7 @@ const Register = () => {
             
             */}
             This is register updated
-            This is register updated
+            firebase will go there 
         </div>
     );
 };
